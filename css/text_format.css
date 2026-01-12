@@ -1,0 +1,74 @@
+.t_transform_uppercase {
+    text-transform: uppercase;
+    border: red solid 2px;
+}
+.t_transform_lowercase {
+    text-transform: lowercase;
+    border: blue solid 2px;
+}
+.t_transform_capitalize {
+    text-transform: capitalize;
+    border: green solid 2px;
+}
+.text-align_center {
+    text-align: center;
+    border: red solid 2px;
+}
+.text-align_right {
+    text-align: right;
+    border: blue solid 2px;
+}
+.t_decor_over {
+    text-decoration: overline;
+    
+}
+.t_decor_line {
+    text-decoration: line-through;
+    border: blue solid 2px;
+}
+.t_decor_under {
+    text-decoration: underline;
+    border: green solid 2px;
+}
+.t_decor {
+    text-decoration: underline overline line-through;
+    
+}
+.t_indent {
+    text-indent: 50px;
+   
+}
+.t_indent_1 {
+    text-indent: 100px;
+   
+}
+.t_line_height {
+    line-height: 28px;
+    
+}
+.t_letter_spacing {
+    letter-spacing: 5px;
+    
+}
+.t_word_spacing {
+    word-spacing: 15px;
+    
+}
+.t_shadow {
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    color: rgb(32, 193, 207);
+    
+}
+.t_shadow_1 {
+    text-shadow: 4px 4px 5px blue;
+    text-align: center;
+    color: rgb(182, 11, 103);
+    
+}
+.t_shadow_2 {
+    text-shadow: 6px 6px 5px green;
+    text-align: center;
+    color: rgb(221, 119, 24);
+    
+}
