@@ -1,0 +1,20 @@
+#heading_1 {
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#heading_2 {
+    color: rgb(0, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}   
+#paragraph_1 {
+    color: rgb(0, 0, 255);
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+#paragraph_2 {
+    color: rgb(255, 165, 0);
+    font-family: 'Georgia', serif;
+    text-align: justify;
+}
