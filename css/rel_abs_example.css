@@ -1,0 +1,43 @@
+.rel {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 2px solid blue;
+  left: 100px;
+}
+#tv {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background-color: coral;
+    border: 2px solid red;
+   left: 125px;
+}
+#sofa {
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    background-color: yellow;
+    border: 2px solid green;
+   top: 80px;
+   left: 120px;
+}
+#chair {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: lightgreen;
+    border: 2px solid purple;
+   top: 200px;
+   left: 50px;
+}
+#table {
+    position: absolute;
+    height: 60px;
+    width: 150px;
+    background-color: lightgray;
+    border: 2px solid brown;
+   top: 220px;
+   left: 180px;
+}

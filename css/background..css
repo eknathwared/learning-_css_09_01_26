@@ -1,0 +1,14 @@
+.linear {
+    height: 400px;
+    background: linear-gradient(to right, #ff7e5f, #a49589, red, yellow);
+}
+.radial {
+    height: 400px;
+    background: radial-gradient(circle, #ff7e5f, #a49589, red, rgb(18, 163, 16));
+}
+.conic {
+    height: 400px;
+    background: conic-gradient(from 0deg, #ff7e5f, #a49589, red, yellow);
+}
+
+

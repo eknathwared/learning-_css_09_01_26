@@ -1,0 +1,21 @@
+body{
+    background-image: url("/learning-_css_09_01_26/images/png-2687339_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.heading {
+
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(159, 55, 55);
+}
+.t_para{
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    
+}

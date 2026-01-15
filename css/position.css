@@ -1,0 +1,38 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.box1 {
+    position: static;
+}
+.box2 {
+    position: relative;
+    top: 30px;
+    left: 150px;
+    background-color: lightgreen;
+}
+.box3 {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    background-color: lightcoral;
+}
+.box4 {
+    position: fixed;
+   bottom: 0px;
+    right: 10px;
+    background-color: lightgoldenrodyellow;
+}
+.box5 {
+    position: sticky;
+    top: 10px;
+    background-color: lightpink;
+}
