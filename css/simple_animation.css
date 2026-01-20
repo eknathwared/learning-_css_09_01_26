@@ -1,0 +1,38 @@
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    position: relative;
+
+    animation: movingbox 20s infinite 1s alternate;
+}
+
+@keyframes movingbox{
+    0%{
+        background-image: url(/learning-_css_09_01_26/images/bird-1295847_1280.png);
+        background-size: cover;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-image: url(/learning-_css_09_01_26/images/images.jpeg);
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        background-image: url(/learning-_css_09_01_26/images/ornament-2439529_1280.png);
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background-image: url(/learning-_css_09_01_26/images/ornament-2452592_1280.png);
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        background-image: url(/learning-_css_09_01_26/images/ram.jpg);
+        left: 0px;
+        top: 0px;
+    }
+}
