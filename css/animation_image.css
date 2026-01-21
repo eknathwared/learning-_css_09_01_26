@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* swing container */
+.swing {
+    position: relative;
+    transform-origin: top center;
+    animation: swing 1.5s ease-in-out infinite alternate;
+}
+
+/* image */
+.swing img {
+    width: 250px;
+    display: block;
+    border-radius: 6px;
+    border: 14px groove orange;
+    box-shadow: 10px 10px 10px grey;
+}
+
+/* rope */
+.swing::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 60px;
+    background-color: grey;
+}
+
+/* hook / kadi */
+.swing::after {
+    content: "";
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18px;
+    height: 18px;
+    border: 4px solid black;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+/* animation */
+@keyframes swing {
+    0% {
+        transform: rotate(4deg);
+    }
+    100% {
+        transform: rotate(-4deg);
+    }
+}
