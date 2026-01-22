@@ -1,0 +1,34 @@
+/* Default styles (Desktop) */
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: darkblue;
+    text-shadow: 2px 2px 2px gray;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+/* Media Query for mobile devices */
+@media only screen and (min-width: 325px) and (max-width: 780px) {
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        font-size: 20px;  /* Mobile-friendly size */
+        color: bisque;
+        text-shadow: 3px 3px 5px red;
+    }
+
+    p {
+        display: none; /* Hide paragraph on mobile */
+    }
+}
